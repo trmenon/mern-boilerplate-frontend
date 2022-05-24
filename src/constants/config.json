@@ -1,0 +1,26 @@
+{
+    "app-name":"Template App",
+    "avatar-themes": [
+        {"key": "THEME_PRIMARY", "value": "primary"},
+        {"key": "THEME_SECONDARY", "value": "secondary"},
+        {"key": "THEME_ERROR", "value": "error"},
+        {"key": "THEME_INFO", "value": "info"},
+        {"key": "THEME_SUCCESS", "value": "success"},
+        {"key": "THEME_WARNING", "value": "warning"}
+    ],
+    "routes": [
+        {"key": "route-1", "name": "Feature 1", "route": "/user/feature1"},
+        {"key": "route-2", "name": "Feature 2", "route": "/user/feature2"},
+        {"key": "route-3", "name": "Feature 3", "route": "/user/feature3"},
+        {"key": "route-4", "name": "Feature 4", "route": "/user/feature4"}
+    ],
+    "server": {
+        "base_url": "http://localhost:8000/api/v1"
+    },
+    "requestMethod": {
+        "GET": "get",
+        "POST": "post",
+        "PUT": "put",
+        "DELETE": "delete"
+    }
+}

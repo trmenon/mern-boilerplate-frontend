@@ -2,14 +2,12 @@ import {
     signin,
     signup,
     signout,
-    getUserTheme,
-    updateUserTheme 
+    getProfileCardDetails,
 } from "./api";
 
 export {
     signin,
     signup,
     signout,
-    getUserTheme,
-    updateUserTheme  
+    getProfileCardDetails  
 }

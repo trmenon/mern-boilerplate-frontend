@@ -1,9 +1,9 @@
-import NavigationBar from "./navigationBar";
 import IntelligentForm from "./intelligentForm";
 import DynamicNavigator from "./dynamicNavigator";
+import TaskBar from "./taskBar";
 
 export {
-    NavigationBar,
     IntelligentForm,
-    DynamicNavigator
+    DynamicNavigator,
+    TaskBar
 }

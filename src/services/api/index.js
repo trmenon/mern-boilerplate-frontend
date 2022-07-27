@@ -1,10 +1,8 @@
-import { signin, signup, signout } from "./userServices";
-import { getUserTheme, updateUserTheme } from './themeServices';
+import { signin, signup, signout, getProfileCardDetails } from "./userServices";
 
 export {
     signin,
     signup,
     signout,
-    getUserTheme,
-    updateUserTheme
+    getProfileCardDetails
 };

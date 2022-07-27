@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { v4 as uuidv4 } from 'uuid';
 import { useNavigate  } from "react-router-dom";
-import { NavigationBar, IntelligentForm} from '../../common';
+import { TaskBar, IntelligentForm} from '../../common';
 import { SignupFields, SigninFields} from './constants';
 import { signupValidator, signinValidator } from "../../../validators";
 import { authenticateUser } from "../../../authentication";
@@ -143,7 +143,7 @@ function GateComponent(){
 
     return(
         <React.Fragment>
-            <NavigationBar showControls={false}/>
+            <TaskBar showControls={false}/>
 
             {/* Toasters */}
             <Snackbar 

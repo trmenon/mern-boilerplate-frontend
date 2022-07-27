@@ -22,8 +22,17 @@ const signout = ()=>
         {}
     );
 
+const getProfileCardDetails = ()=> 
+    fetchCall(
+        `/user/profileCard/${JSON.parse(localStorage.user)?._id}`,
+        config.requestMethod.GET,
+        {},
+        true
+    );
+
 export {
     signin,
     signup,
-    signout
+    signout,
+    getProfileCardDetails
 };
